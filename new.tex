@@ -64,33 +64,33 @@
 %
 % 1st. author
 %\alignauthor
-Shailendra \\%\titlenote{Dr.~Trovato insisted his name be first.}\\
+Shailendra Kumar Gupta\\%\titlenote{Dr.~Trovato insisted his name be first.}\\
        \affaddr{Dept. of Computer Science}\\
-       \affaddr{National University of Singapore}\\
-       \email{mksaini@comp.nus.edu.sg}
+       \affaddr{IIT Ropar}\\
+       \email{2016csb1059@iitrpr.ac.in}
 % 2nd. author
 \alignauthor
-Raghudeep Gadde \\%\titlenote{The secretary disavows
+Abhinav Jindal \\%\titlenote{The secretary disavows
 % knowledge of this author's actions.}\\
        \affaddr{Dept. of ECE}\\
-       \affaddr{National University of Singapore}\\
+       \affaddr{IIT Ropar}\\
        %\affaddr{Dublin, Ohio 43017-6221}\\
-       \email{elerdg@nus.edu.sg}
+       \email{2016csb1026@iitrpr.ac.in}
 \and
 % 3rd. author
-\alignauthor Shuicheng Yan \\%\titlenote{This author is the
+\alignauthor Batchu Meghana \\%\titlenote{This author is the
 %one who did all the really hard work.}\\
        \affaddr{Dept. of ECE}\\
-       \affaddr{National University of Singapore}\\
+       \affaddr{IIT Ropar}\\
      %  \affaddr{Hekla, Iceland}\\
-       \email{eleyans@nus.edu.sg}
+       \email{2016csb1034@iitrpr.ac.in}
 %\and  % use '\and' if you need 'another row' of author names
 % 4th. author
-\alignauthor Wei Tsang Ooi\\
+\alignauthor Mamatha\\
        \affaddr{Dept. of Computer Science}\\
-       \affaddr{National University Of Singapore}\\
+       \affaddr{IIT Ropar}\\
        %\affaddr{P.O. Box 5000}\\
-       \email{ooiwt@comp.nus.edu.sg}
+       \email{2014csb10XX@iitrpr.ac.in}
 }
 % There's nothing stopping you putting the seventh, eighth, etc.
 % author on the opening page (as the 'third row') but we ask,
@@ -106,6 +106,8 @@ Raghudeep Gadde \\%\titlenote{The secretary disavows
 
 \maketitle
 \begin{abstract}
+this is change made in abstract section.
+
 With the proliferation of mobile video cameras, it is becoming easier
 for users to capture videos of live performances and socially
 share them with friends and public. As an attendee of such live
@@ -168,6 +170,8 @@ Understanding}{Video Analysis}
 %specifically available for denoting the structure of a
 %proceedings paper, rather than with giving rigorous descriptions
 %or explanations of such commands.
+this is change made in Introduction section.
+
 Worldwide shipment of camera phones were estimated to reach
 1.14 billion in the year 2011 alone \cite{1}. Furthermore, a survey of
 over 2,500 respondents by Photobucket reveals that 45\% of the re-spondents use mobile devices to shoot video at least once weekly
@@ -279,6 +283,7 @@ describe proposed mashup framework. We evaluate our system in
 Section 4. The conclusions are provided in Section 5.
 
 \section{PREVOIUS WORK}
+this is change made in Previous work section.
 
 \begin{table*}
 \centering
@@ -385,6 +390,8 @@ posed method is the first attempt to consider history based diversity
 through learning for online video selection for live performances.
 
 \section{MOVIMASH FRAMEWORK}
+this is change made in Movimash Framework section.
+
 In this section, we first enumerate the design principles that we
 have followed in the development of MoViMash and then describe
 the framework. After an overview of MoViMash, we focus on in-
@@ -393,6 +400,8 @@ dividual components.
 
 
 \subsection{Design Principles}
+this is change made in design principles sub section.
+
 The end goal of the MoViMash is to produce a mashup that users
 like. To achieve this goal, we have followed a set of design principles as follows:
 
@@ -433,6 +442,8 @@ edited videos.
 \end{itemize}
   
 \subsection{Framework}
+this is change made in framework sub section.
+
 At every time instant, we have a number of videos to choose
 from. Once we have chosen the video, we also need to decide when
 to switch to another video. Hence, there are two main questions
@@ -480,11 +491,15 @@ describe each component of the framework in detail.
 
 
 \subsection{View Quality}
+this is change made in view quality sub  section.
+
 The view quality is measured in terms of three characteristics:
 occlusion, shakiness, and camera tilt. The details of measurement
 of each of these quantities is given below.
 
 \subsubsection{Occlusion}
+this is change made in occlusion sub sub section.
+
 For both a stand mounted camera and a mobile camera, there
 is always a chance of view occlusion. At crowded places, people
 sometime do not notice the cameras recording the video and occlude the performance view. Even if people notice the cameras,
@@ -580,6 +595,7 @@ for a patch size of 20*15 pixels, videos with occlusion score more
 than 0.2 are very bad, so these are filtered in the framework.
 
 \subsubsection{Tilt}
+this is change made in tilt sub section.
 
 In this work, we define tilt as the rotation of the camera around
 horizontal axis. User's generally do not like the videos recorded
@@ -616,6 +632,8 @@ tilt score as shown in Figure 4 for frames 200 and 216. The videos
 with a tilt score of 0.4 are found unusable and they are filtered.
 
 \subsubsection{Shakiness}
+this is change made in shakiness sub sub section.
+
 Shakiness is calculated based on the method described in \cite{4}.
 In this method, the pixel values are projected on horizontal and
 vertical axes. The horizontal and vertical projections are matched
@@ -629,6 +647,8 @@ for any value above 300, $S^s$ is saturated to 1.
 
 
 \subsection{Learning}
+this is change made in learning sub section.
+
 As mentioned earlier in Section 1, it is difficult to precisely enumerate all the rules which professional editors follow in selecting
 a video and its corresponding shot length. In MoViMash, we propose to learn the behavior of professional editor statistically for use
 in creating mashup. We use professionally edited videos for this
@@ -800,6 +820,7 @@ want to give priority to the videos that are good in all aspects.
 
 
 \subsection{Diversity}
+this is change made in diversity sub section.
 
 \newcolumntype{c}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
@@ -896,7 +917,7 @@ capture and spatial and temporal diversity of videos.
 
 
 \subsection{Final Ranking}
-
+this is change made in final ranking sub section.
 
 For all the videos of the selected class, we have three metrics:
 video quality score, diversity score, and shakiness score. We calculated weighted sum of these values to calculate final score $S^f$ :
@@ -915,6 +936,8 @@ value for $\alpha$1 . The shot from the video with the highest score is
 selected at the current time instant.
 
 \subsection{Length Selection}
+this is change made in length selection sub section.
+
 To determine the switching instant, we are using a method which
 combines the learning based prediction to obey the editing rules and
 the superiority (in terms of overall quality) of the currently selected
@@ -955,6 +978,8 @@ occluded or shaky video annoys the viewers.
 
 
 \section{EVALUATION}
+this is change made in evaluation section.
+
 \begin{figure*}[h]
     \centering
     \includegraphics[width=01\textwidth]{img6.png}
@@ -984,6 +1009,7 @@ based on ranking average of shakiness, diversity, and video quality only (VQ-Onl
 mashup.
 
 \subsection{Dataset}
+this is change made in dataset sub section.
 
 The main application of the proposed framework is to combine
 the videos recorded by mobile phone users. Therefore, we went to
@@ -996,6 +1022,8 @@ being researched separately \cite{14}. The details of the performances
 and video recordings are given in the Table 2. Figure 6 shows selected frames for each performance.
 
 \subsection{User Study}
+this is change made in user study sub section.
+
 In the user study, we ask the users to watch the mashups created
 by the three methods and rate them accordingly. A total of seventeen users participated in the study, with age range from 20 to 30.
 The users were mainly graduate students, males and females. The
@@ -1015,11 +1043,14 @@ The users rate the videos with a rating ranged between 1 to 5, where
 are given in Table 3.
 
 \subsection{Result Analysis}
+this is change made in result analysis sub section.
+
 The average responses of the users, along with their standard
 deviations, are plotted in Figure 7 and Figure 8. We observed responses of the users for Questions A,B,C,D to be similar and with
 slight variation for Question E.
 
 \subsubsection{$Analysis of Questions A, B, C, and D$}
+this is change made in analysis of questions sub sub section.
 
 We observed that majority of users responded homogeneously
 for all four of them. The responses indicated that the ratings were
@@ -1085,6 +1116,8 @@ strong case for automated mashup creation for live applications of
 video sharing and broadcasting.
 
 \subsubsection{Overall Video Quality}
+this is change made in overall video quality dub dub section.
+
 User ratings for overall video quality are shown in the Figure 8.
 We can see that on average, MoViMash outperforms other meth-
 ods in overall video quality. Users generally liked the quality of
@@ -1112,6 +1145,8 @@ it will fail in many real scenarios as it does not have any provision
 for view quality and smooth shot transitions.
 
 \subsection{Discussion}
+this is change made in discussion sub section.
+
 The MoViMash framework takes automatic mashup creation meth-
 ods closer to the human editors. It, however, adds to the processing
 cost. The enhanced diversity model requires more memory for stor-
@@ -1126,6 +1161,8 @@ system scalable, we can process downscaled images as the video
 resolution is not critical for the current system components.
 
 \section{CONCLUSIONS \& FUTURE WORK}
+this is change made in conclusions $\&$ future work section.
+
 In this paper, we have proposed and validated an online video
 mashup creation framework, MoViMash, for videos recorded by
 mobile devices. Based on the experiments and user study, we make
@@ -1163,12 +1200,14 @@ final mashup.
 \end{itemize}
 
 \section*{Acknowledgement}
+this is change made in acknowledgement section.
+
 This research is conducted under the NExT Search Center, supported by the Singapore National Research Foundation and the Interactive Digital Media R\&D Program Office of Media Development Authority under research grant WBS:R-252-300-001-490.
 
 
 
 \bibliographystyle{unsrt}
-\bibliography{lab3_2016csb1059}
+\bibliography{new}
 
 
 \end{document}
